@@ -80,7 +80,7 @@ body {
   margin: 0 auto;
   font-family: "Fredericka the Great", cursive;
   overflow: auto;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-bottom: 15%; }
 
 .circle {
@@ -91,19 +91,38 @@ body {
   color: #f9f4e4;
   border-radius: 50%;
   text-align: center;
-  margin: 20px; }
+  margin: 30px;
+  position: absolute; }
 
 .circle p {
   margin-top: 40%; }
 
 #circle-left {
-  background-color: rgba(169, 173, 0, 0.8); }
+  background-color: rgba(169, 173, 0, 0.8);
+  margin-left: 0%;
+  transition: all 1s ease; }
+
+#circle-left:hover {
+  width: 320px;
+  height: 320px; }
 
 #circle-center {
-  background-color: rgba(197, 0, 89, 0.8); }
+  background-color: rgba(197, 0, 89, 0.8);
+  margin-left: 30%;
+  transition: all 1s ease; }
+
+#circle-center:hover {
+  width: 320px;
+  height: 320px; }
 
 #circle-right {
-  background-color: rgba(0, 123, 141, 0.8); }
+  background-color: rgba(0, 123, 141, 0.8);
+  margin-left: 60%;
+  transition: all 1s ease; }
+
+#circle-right:hover {
+  width: 320px;
+  height: 320px; }
 
 .index-head {
   opacity: 0; }
@@ -125,9 +144,9 @@ body {
   color: #939598;
   padding: 10px;
   margin: 10px;
-  font-size: 30px;
+  font-size: 2em;
   font-family: "Fredericka the Great", cursive;
-  color: #c50059; }
+  color: #007b8d; }
 
 .reg-head ul {
   border-bottom: 2px dashed #c50059;
@@ -138,7 +157,7 @@ body {
   padding: 10px;
   margin: 20px;
   float: right;
-  font-size: 24px; }
+  font-size: 1.5em; }
 
 .who {
   color: #a9ad00; }
@@ -148,3 +167,36 @@ body {
 
 .how {
   color: #007b8d; }
+
+.who-head .who {
+  font-size: 3.5em;
+  margin-top: 5px;
+  animation: fontBuldge 2s; }
+
+@keyframes fontBuldge {
+  0% {
+    font-size: 1.5em; }
+  100% {
+    font-size: 3.5em; } }
+
+.what-head .what {
+  font-size: 3.5em;
+  margin-top: 5px;
+  animation: fontBuldge 2s; }
+
+@keyframes fontBuldge {
+  0% {
+    font-size: 1.5em; }
+  100% {
+    font-size: 3.5em; } }
+
+.how-head .how {
+  font-size: 3.5em;
+  margin-top: 5px;
+  animation: fontBuldge 2s; }
+
+@keyframes fontBuldge {
+  0% {
+    font-size: 1.5em; }
+  100% {
+    font-size: 3.5em; } }
