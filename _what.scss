@@ -12,3 +12,57 @@
     font-size: 3.5em;
   }
 }
+
+.what-page{
+  font-family: $headerfont;
+}
+
+@keyframes grow {
+    0%{
+      height: 0px;
+    }
+  100%{
+    height: 300px;
+  }
+}
+
+.what-page h1{
+  margin: 20px;
+  font-size: 4em;
+  color: $pink;
+}
+
+.what-page p{
+  font-family: $bodyfont;
+  font-size: 1.5em;
+  color:$teal;
+}
+
+.what-page h3{
+  padding-top: 3px;
+  font-family: $headerfont;
+  color:$green;
+  font-size: 1.5em;
+}
+.projects{
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+.img-container{
+  margin-top: 30px;
+  text-align: center;
+  float: left;
+  width: 33.333%;
+  border-radius: 10px;
+  filter: opacity(.7) sepia(1);
+
+}
+
+.the-image{
+  animation: grow 2s;
+  object-fit: fill;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
