@@ -1,0 +1,59 @@
+body{
+  background-color: $cream;
+}
+
+.name{
+  font-family: $headerfont;
+  color:$teal;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 60px 20px;
+}
+
+#chelsey{
+  font-size: 8em;
+  float: right;
+}
+#title{
+  font-size: 3.5em;
+  color:$green;
+  padding-top: 30px;
+  padding-left: 400px;
+  float: right;
+}
+
+.choices {
+  clear: both;
+  margin: 0 auto;
+  font-family: $headerfont;
+  overflow: auto;
+  padding-left: 15%;
+  padding-bottom: 15%;
+}
+
+.circle{
+  font-size: 2.5em;
+  height: 300px;
+  width: 300px;
+  float:left;
+  color: $cream;
+  border-radius: 50%;
+  text-align: center;
+  margin: 20px
+}
+
+.circle p{
+  margin-top: 40%;
+}
+
+#circle-left{
+  background-color: $greenOp;
+}
+
+#circle-center{
+  background-color: $pinkOp;
+}
+
+#circle-right{
+  background-color: $tealOp;
+}

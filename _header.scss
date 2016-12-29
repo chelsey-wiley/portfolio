@@ -1,0 +1,57 @@
+.index-head{
+  opacity: 0;
+}
+
+
+.index-head ul{
+  background-color: $grey;
+  height: 80px;
+  font-family: $headerfont;
+}
+
+.index-head li{
+  color: $cream;
+  padding: 10px;
+  margin: 20px;
+  float:right;
+  font-size: 24px;
+}
+
+
+
+.reg-head p{
+  float:left;
+  color: $grey;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-family: $headerfont;
+  color: $pink;
+}
+.reg-head ul{
+  border-bottom: 2px dashed $pink;
+  height: 80px;
+  font-family: $headerfont;
+}
+
+.reg-head li{
+  padding: 10px;
+  margin: 20px;
+  float:right;
+  font-size: 24px;
+}
+
+.who{
+  color: $green;
+}
+
+.what{
+  color: $pink;
+}
+
+.how{
+  color:$teal;
+}
+// .reg-head:a{
+//   text-decoration: none;
+// }
