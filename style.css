@@ -206,35 +206,34 @@ body {
   font-size: 4em;
   color: #c50059; }
 
-.what-page p {
+.projects {
+  max-width: 96%;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+
+.projects p {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.5em;
   color: #007b8d; }
-
-.what-page h3 {
-  padding-top: 3px;
-  font-family: "Fredericka the Great", cursive;
-  color: #a9ad00;
-  font-size: 1.5em; }
-
-.projects {
-  max-width: 96%;
-  margin: 0 auto; }
 
 .img-container {
   margin-top: 30px;
   text-align: center;
   float: left;
   width: 33.333%;
-  border-radius: 10px;
-  filter: opacity(0.7) sepia(1); }
+  border-radius: 10px; }
 
 .the-image {
+  margin-top: 5px;
   animation: grow 2s;
   object-fit: fill;
   width: 100%;
   height: 300px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  filter: opacity(0.7) sepia(1); }
+
+.the-image:hover {
+  filter: none; }
 
 .how-head .how {
   font-size: 3.5em;

@@ -32,21 +32,17 @@
   color: $pink;
 }
 
-.what-page p{
-  font-family: $bodyfont;
-  font-size: 1.5em;
-  color:$teal;
-}
-
-.what-page h3{
-  padding-top: 3px;
-  font-family: $headerfont;
-  color:$green;
-  font-size: 1.5em;
-}
 .projects{
   max-width: 96%;
   margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.projects p{
+  font-family: $bodyfont;
+  font-size: 1.5em;
+  color:$teal;
+
 }
 
 .img-container{
@@ -55,14 +51,31 @@
   float: left;
   width: 33.333%;
   border-radius: 10px;
-  filter: opacity(.7) sepia(1);
-
 }
 
 .the-image{
+  margin-top: 5px;
   animation: grow 2s;
   object-fit: fill;
   width: 100%;
   height: 300px;
   border-radius: 10px;
+  filter: opacity(.7) sepia(1);
 }
+
+.the-image:hover{
+  filter: none;
+}
+
+// .info-box{
+//   height: 2em;
+//   overflow: hidden;
+// }
+// .info-box:hover{
+//   border: 1px solid black;
+//   height: auto;
+//   overflow: auto;
+// }
+// .info-box p{
+//   padding: 10px;
+// }
