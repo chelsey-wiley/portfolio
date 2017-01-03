@@ -54,6 +54,30 @@ a {
 a:visited {
   color: inherit; }
 
+@keyframes fontBuldge {
+  0% {
+    font-size: 1.5em; }
+  100% {
+    font-size: 3.5em; } }
+
+@keyframes H1loadIt {
+  0% {
+    font-size: 0; }
+  100% {
+    font-size: 4em; } }
+
+@keyframes H3loadIt {
+  0% {
+    font-size: 0; }
+  100% {
+    font-size: 2.7em; } }
+
+@keyframes grow {
+  0% {
+    height: 0px; }
+  100% {
+    height: 300px; } }
+
 body {
   background-color: #f9f4e4; }
 
@@ -180,24 +204,6 @@ body {
   margin-top: 5px;
   animation: fontBuldge 1.5s; }
 
-@keyframes fontBuldge {
-  0% {
-    font-size: 1.5em; }
-  100% {
-    font-size: 3.5em; } }
-
-@keyframes H2loadIt {
-  0% {
-    font-size: 0; }
-  100% {
-    font-size: 4em; } }
-
-@keyframes H3loadIt {
-  0% {
-    font-size: 0; }
-  100% {
-    font-size: 2.7em; } }
-
 .who-page {
   font-family: "Fredericka the Great", cursive; }
 
@@ -220,12 +226,12 @@ body {
   float: left;
   width: 70%; }
 
-.info h2 {
+.info h1 {
   font-family: "Fredericka the Great", cursive;
   color: #a9ad00;
   font-size: 4em;
   padding-bottom: 20px;
-  animation: H2loadIt 1.5s; }
+  animation: H1loadIt 1.5s; }
 
 .info p {
   font-family: "Open Sans Condensed", sans-serif;
@@ -269,25 +275,18 @@ body {
   margin-top: 5px;
   animation: fontBuldge 1.5s; }
 
-@keyframes fontBuldge {
-  0% {
-    font-size: 1.5em; }
-  100% {
-    font-size: 3.5em; } }
+.info {
+  font-family: "Fredericka the Great", cursive;
+  margin: 20px; }
 
-.what-page {
-  font-family: "Fredericka the Great", cursive; }
-
-@keyframes grow {
-  0% {
-    height: 0px; }
-  100% {
-    height: 300px; } }
-
-.what-page h1 {
-  margin: 20px;
+.info h1 {
   font-size: 4em;
-  color: #c50059; }
+  color: #c50059;
+  animation: H1loadIt 1.5s; }
+
+.what-page p {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.5em; }
 
 .projects {
   max-width: 96%;

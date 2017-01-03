@@ -4,32 +4,7 @@
   animation: fontBuldge 1.5s;
 }
 
-@keyframes fontBuldge {
-  0% {
-    font-size: 1.5em;
-  }
-  100% {
-    font-size: 3.5em;
-  }
-}
 
-@keyframes H2loadIt {
-  0%{
-    font-size: 0;
-  }
-  100%{
-    font-size: 4em;
-  }
-}
-
-@keyframes H3loadIt {
-  0%{
-    font-size: 0;
-  }
-  100% {
-    font-size: 2.7em;
-  }
-}
 
 .who-page{
   font-family: $headerfont;
@@ -58,12 +33,12 @@
   width: 70%;
 }
 
-.info h2{
+.info h1{
   font-family: $headerfont;
   color: $green;
   font-size: 4em;
   padding-bottom: 20px;
-  animation: H2loadIt 1.5s;
+  animation: H1loadIt 1.5s;
 }
 
 .info p{
