@@ -1,7 +1,7 @@
 .what-head .what {
   font-size: 3.5em;
   margin-top: 5px;
-  animation: fontBuldge 2s;
+  animation: fontBuldge 1.5s;
 }
 
 @keyframes fontBuldge {
@@ -56,7 +56,7 @@
 
 .the-image{
   margin-top: 5px;
-  animation: grow 2s;
+  animation: grow 1.5s;
   object-fit: fill;
   width: 100%;
   height: 300px;
@@ -68,15 +68,18 @@
   filter: none;
 }
 
-// .info-box{
-//   height: 2em;
-//   overflow: hidden;
-// }
-// .info-box:hover{
-//   border: 1px solid black;
-//   height: auto;
-//   overflow: auto;
-// }
-// .info-box p{
-//   padding: 10px;
-// }
+.contact {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: $tealOp;
+  transition: all .5s ease-out;
+}
+
+.contact:hover{
+  height: 110px;
+  width: 110px;
+}

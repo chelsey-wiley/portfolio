@@ -1,7 +1,7 @@
 .who-head .who {
   font-size: 3.5em;
   margin-top: 5px;
-  animation: fontBuldge 2s;
+  animation: fontBuldge 1.5s;
 }
 
 @keyframes fontBuldge {
@@ -11,4 +11,100 @@
   100% {
     font-size: 3.5em;
   }
+}
+
+@keyframes H2loadIt {
+  0%{
+    font-size: 0;
+  }
+  100%{
+    font-size: 4em;
+  }
+}
+
+@keyframes H3loadIt {
+  0%{
+    font-size: 0;
+  }
+  100% {
+    font-size: 2.7em;
+  }
+}
+
+.who-page{
+  font-family: $headerfont;
+}
+
+.container{
+  position: relative;
+  margin: 30px;
+  max-width: 96%;
+  padding-bottom: 30px;
+}
+
+.photo{
+  float: right;
+}
+
+.photo img{
+  height: 300px;
+  filter: opacity(.8) sepia(1);
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.info{
+  float:left;
+  width: 70%;
+}
+
+.info h2{
+  font-family: $headerfont;
+  color: $green;
+  font-size: 4em;
+  padding-bottom: 20px;
+  animation: H2loadIt 1.5s;
+}
+
+.info p{
+  font-family: $bodyfont;
+  color: $teal;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+.info span{
+  font-weight: bold;
+}
+
+.info h3{
+  font-family: $headerfont;
+  color: $greenOp;
+  font-size: 2.7em;
+  padding-bottom: 20px;
+  animation: H3loadIt 1.5s;
+}
+
+.contact {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: $tealOp;
+  transition: all .5s ease-out;
+}
+
+.contact:hover{
+  height: 110px;
+  width: 110px;
+}
+
+.contact p{
+  margin-top: 35%;
+  text-align: center;
+  font-family: $bodyfont;
+  font-size: 1.5em;
 }
