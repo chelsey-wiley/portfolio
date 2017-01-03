@@ -1,6 +1,7 @@
-.what-head .what {
+.what-head .what{
   font-size: 3.5em;
   margin-top: 5px;
+  margin-bottom: 30px;
   animation: fontBuldge 1.5s;
 }
 
@@ -16,7 +17,8 @@
 }
 
 .what-page{
-  margin-top: 30px;
+  max-width: 95%;
+  margin:0 auto;
 }
 .what-page p{
   font-family: $bodyfont;
