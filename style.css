@@ -369,9 +369,30 @@ body {
   margin-top: 5px;
   animation: fontBuldge 1.5s; }
 
+.how-page .container h1 {
+  font-family: "Fredericka the Great", cursive;
+  color: #007b8d;
+  font-size: 4em;
+  padding-bottom: 20px;
+  animation: H1loadIt 1.5s; }
+
+.how-page .container p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #939598;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-bottom: 20px; }
+
+.how-page .container h3 {
+  font-family: "Fredericka the Great", cursive;
+  color: rgba(0, 123, 141, 0.8);
+  font-size: 2.7em;
+  padding-bottom: 20px;
+  animation: H3loadIt 1.5s; }
+
 .contact-head .contact-me {
   font-family: "Fredericka the Great", cursive;
-  color: #939598;
+  color: #007b8d;
   font-size: 3.5em;
   margin-top: 5px;
   animation: fontBuldge 1.5s; }
@@ -381,7 +402,7 @@ body {
 
 .contact-page h1 {
   font-family: "Fredericka the Great", cursive;
-  color: #939598;
+  color: #007b8d;
   animation: H1loadIt 1.5s;
   padding-bottom: 30px;
   font-size: 4em; }
@@ -389,7 +410,7 @@ body {
 .contact-page p {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.5em;
-  color: #007b8d;
+  color: #939598;
   padding-bottom: 30px; }
 
 .contact-page p span {
@@ -397,7 +418,7 @@ body {
 
 .contact-page h3 {
   font-family: "Fredericka the Great", cursive;
-  color: #939598;
+  color: rgba(0, 123, 141, 0.8);
   font-size: 2.7em;
   padding-bottom: 20px;
   animation: H3loadIt 1.5s; }

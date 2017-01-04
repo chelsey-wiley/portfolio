@@ -3,3 +3,28 @@
   margin-top: 5px;
   animation: fontBuldge 1.5s;
 }
+
+
+.how-page .container h1{
+  font-family: $headerfont;
+  color: $teal;
+  font-size: 4em;
+  padding-bottom: 20px;
+  animation: H1loadIt 1.5s;
+}
+
+.how-page .container p{
+  font-family: $bodyfont;
+  color: $grey;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+.how-page .container h3{
+  font-family: $headerfont;
+  color: $tealOp;
+  font-size: 2.7em;
+  padding-bottom: 20px;
+  animation: H3loadIt 1.5s;
+}
