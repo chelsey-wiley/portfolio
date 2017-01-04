@@ -5,15 +5,16 @@
   animation: fontBuldge 1.5s;
 }
 
-.info{
+.what-page .info{
   font-family: $headerfont;
   float: left;
   width: 30%;
 }
-.info h1{
+.what-page .info h1{
   font-size: 4em;
   color: $pink;
   animation: H1loadIt 1.5s;
+  margin-top: 30px;
 }
 
 .what-page{
@@ -63,15 +64,44 @@
 .contact {
   border-radius: 50%;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: -1;
+  right: -1;
   width: 100px;
   height: 100px;
   background-color: $tealOp;
   transition: all .5s ease-out;
+  padding: 5px;
 }
 
 .contact:hover{
   height: 110px;
   width: 110px;
+}
+
+.list ul{
+  font-family: $bodyfont;
+  font-size: 1.5em;
+  color:$teal;
+  list-style-type: disc;
+}
+.list{
+  padding: 30px;
+  line-height: 2em;
+}
+.code{
+  float: left;
+  width: 50%;
+}
+
+.design{
+  float: left;
+  width: 50%;
+}
+
+#blog:hover{
+  color:$greenOp;
+}
+
+#linked-in:hover{
+  color:$greenOp;
 }
