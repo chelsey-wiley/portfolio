@@ -156,6 +156,10 @@ body {
   width: 320px;
   height: 320px; }
 
+@media (max-width: 1415px) {
+  .name {
+    color: black; } }
+
 .index-head {
   opacity: 0; }
 
