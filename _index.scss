@@ -3,6 +3,7 @@ body{
 }
 
 .index-page{
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -11,8 +12,6 @@ body{
   font-family: $headerfont;
   color:$teal;
   overflow: auto;
-  width: 60%;
-  // float: left;
   padding: 0 10px;
   padding-bottom: 60px;
 }
@@ -31,6 +30,7 @@ body{
   padding-left: 400px;
   float: right;
   font-family: $headerfont;
+  padding-bottom: 80px;
 }
 
 .choices {
@@ -38,8 +38,7 @@ body{
   margin: 0 auto;
   font-family: $headerfont;
   overflow: auto;
-  max-width: 90%;
-  padding-bottom: 15%;
+  max-width: 100%;
 }
 
 .circle{

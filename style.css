@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -82,6 +83,7 @@ body {
   background-color: #f9f4e4; }
 
 .index-page {
+  max-width: 90%;
   margin: 0 auto; }
 
 .name {
@@ -89,7 +91,6 @@ body {
   font-family: "Fredericka the Great", cursive;
   color: #007b8d;
   overflow: auto;
-  width: 60%;
   padding: 0 10px;
   padding-bottom: 60px; }
 
@@ -105,15 +106,15 @@ body {
   padding-top: 30px;
   padding-left: 400px;
   float: right;
-  font-family: "Fredericka the Great", cursive; }
+  font-family: "Fredericka the Great", cursive;
+  padding-bottom: 80px; }
 
 .choices {
   clear: both;
   margin: 0 auto;
   font-family: "Fredericka the Great", cursive;
   overflow: auto;
-  max-width: 90%;
-  padding-bottom: 15%; }
+  max-width: 100%; }
 
 .circle {
   font-size: 2.5em;
@@ -176,11 +177,10 @@ body {
   padding: 10px;
   margin: 10px;
   font-size: 2em;
-  font-family: "Fredericka the Great", cursive;
+  font-family: "Shadows Into Light Two", cursive;
   color: #007b8d; }
 
 .reg-head ul {
-  border-bottom: 2px dashed #c50059;
   height: 80px;
   font-family: "Fredericka the Great", cursive; }
 
@@ -234,7 +234,7 @@ body {
   animation: H1loadIt 1.5s; }
 
 .info p {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   color: #007b8d;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -267,7 +267,7 @@ body {
 .contact p {
   margin-top: 35%;
   text-align: center;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   color: #f9f4e4;
   font-size: 1.5em; }
 
@@ -293,7 +293,7 @@ body {
   margin: 0 auto; }
 
 .what-page p {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   font-size: 1.5em; }
 
 .projects {
@@ -302,7 +302,7 @@ body {
   margin: 0 auto; }
 
 .projects p {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   font-size: 1.5em;
   color: #007b8d; }
 
@@ -341,7 +341,7 @@ body {
   width: 110px; }
 
 .list ul {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   font-size: 1.5em;
   color: #007b8d;
   list-style-type: disc; }
@@ -377,7 +377,7 @@ body {
   animation: H1loadIt 1.5s; }
 
 .how-page .container p {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   color: #939598;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -408,7 +408,7 @@ body {
   font-size: 4em; }
 
 .contact-page p {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   font-size: 1.5em;
   color: #939598;
   padding-bottom: 30px; }
