@@ -1,5 +1,48 @@
-@media (max-width: 1415px) {
-  body{
+@media (max-width: 850px) {
 
+  .circle{
+    position: relative;
+    float: none;
   }
+  #circle-left{
+    margin: 5px auto;
+  }
+
+  #circle-center{
+    margin: 5px auto;
+  }
+
+  #circle-right{
+    margin: 5px auto;
+  }
+
+  .circle p{
+    margin:auto;
+  }
+
+}
+
+@media (max-width:815px){
+  header{
+    text-align: center;
+  }
+  .title{
+    float: none;
+  }
+}
+
+@media (max-width:540px) {
+  .chelsey{
+    font-size: 4em;
+      text-align: center;
+  }
+  .title{
+    padding: 10px;
+    font-size: 2em;
+  }
+.circle{
+  font-size: 1.5em;
+  height: 200px;
+  width: 200px;
+}
 }

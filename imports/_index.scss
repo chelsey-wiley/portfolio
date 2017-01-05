@@ -1,16 +1,19 @@
 body {
   background-color: $cream;
 }
-
+.index-head{
+  display: none;
+}
 .index-page{
-  max-width: 90%;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 header{
   font-family: $headerfont;
-  padding: 0 10px;
+  padding: 30px 10px;
   max-width: 800px;
+  clear:both;
 }
 
 .chelsey {
@@ -31,7 +34,6 @@ header{
   clear: both;
   margin: 100px auto;
   font-family: $headerfont;
-  // overflow: auto;
   max-width: 100%;
 }
 
@@ -43,12 +45,11 @@ header{
   color: $cream;
   border-radius: 50%;
   text-align: center;
-  margin: 30px;
   position: absolute;
 }
 
 .circle p{
-  margin-top: 40%;
+  padding-top: 40%;
 }
 
 #circle-left {

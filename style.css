@@ -82,14 +82,18 @@ a:visited {
 body {
   background-color: #f9f4e4; }
 
+.index-head {
+  display: none; }
+
 .index-page {
-  max-width: 90%;
+  max-width: 960px;
   margin: 0 auto; }
 
 header {
   font-family: "Fredericka the Great", cursive;
-  padding: 0 10px;
-  max-width: 800px; }
+  padding: 30px 10px;
+  max-width: 800px;
+  clear: both; }
 
 .chelsey {
   color: #007b8d;
@@ -116,11 +120,10 @@ header {
   color: #f9f4e4;
   border-radius: 50%;
   text-align: center;
-  margin: 30px;
   position: absolute; }
 
 .circle p {
-  margin-top: 40%; }
+  padding-top: 40%; }
 
 #circle-left {
   background-color: rgba(169, 173, 0, 0.8);
@@ -147,6 +150,37 @@ header {
 #circle-right:hover {
   width: 320px;
   height: 320px; }
+
+@media (max-width: 850px) {
+  .circle {
+    position: relative;
+    float: none; }
+  #circle-left {
+    margin: 5px auto; }
+  #circle-center {
+    margin: 5px auto; }
+  #circle-right {
+    margin: 5px auto; }
+  .circle p {
+    margin: auto; } }
+
+@media (max-width: 815px) {
+  header {
+    text-align: center; }
+  .title {
+    float: none; } }
+
+@media (max-width: 540px) {
+  .chelsey {
+    font-size: 4em;
+    text-align: center; }
+  .title {
+    padding: 10px;
+    font-size: 2em; }
+  .circle {
+    font-size: 1.5em;
+    height: 200px;
+    width: 200px; } }
 
 .index-head {
   opacity: 0; }
