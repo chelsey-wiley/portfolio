@@ -86,34 +86,26 @@ body {
   max-width: 90%;
   margin: 0 auto; }
 
-.name {
-  margin: 0 auto;
+header {
   font-family: "Fredericka the Great", cursive;
-  color: #007b8d;
-  overflow: auto;
   padding: 0 10px;
-  padding-bottom: 60px; }
+  max-width: 800px; }
 
-#chelsey {
-  display: inline-block;
+.chelsey {
+  color: #007b8d;
   font-size: 8em;
   font-family: "Fredericka the Great", cursive; }
 
-#title {
-  clear: both;
+.title {
   font-size: 3.5em;
   color: #a9ad00;
-  padding-top: 30px;
-  padding-left: 400px;
   float: right;
-  font-family: "Fredericka the Great", cursive;
-  padding-bottom: 80px; }
+  font-family: "Fredericka the Great", cursive; }
 
 .choices {
   clear: both;
-  margin: 0 auto;
+  margin: 100px auto;
   font-family: "Fredericka the Great", cursive;
-  overflow: auto;
   max-width: 100%; }
 
 .circle {
@@ -155,10 +147,6 @@ body {
 #circle-right:hover {
   width: 320px;
   height: 320px; }
-
-@media (max-width: 1415px) {
-  .name {
-    color: black; } }
 
 .index-head {
   opacity: 0; }

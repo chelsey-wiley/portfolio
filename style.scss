@@ -1,15 +1,15 @@
-@import "reset";
-@import "variables";
-@import "fonts";
+@import "imports/reset";
+@import "imports/variables";
+@import "imports/fonts";
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
 
-@import "_keyframes";
+@import "imports/_keyframes";
 
-@import "index";
-@import "header";
+@import "imports/index";
+@import "imports/header";
 
-@import "who";
-@import "what";
-@import "how";
-@import "contact";
+@import "imports/who";
+@import "imports/what";
+@import "imports/how";
+@import "imports/contact";

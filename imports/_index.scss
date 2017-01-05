@@ -1,4 +1,4 @@
-body{
+body {
   background-color: $cream;
 }
 
@@ -7,37 +7,31 @@ body{
   margin: 0 auto;
 }
 
-.name{
-  margin: 0 auto;
+header{
   font-family: $headerfont;
-  color:$teal;
-  overflow: auto;
   padding: 0 10px;
-  padding-bottom: 60px;
+  max-width: 800px;
 }
 
-#chelsey{
-  display: inline-block;
+.chelsey {
+  color:$teal;
   font-size: 8em;
-  // float: right;
   font-family: $headerfont;
 }
-#title{
-  clear: both;
+
+.title {
   font-size: 3.5em;
   color:$green;
-  padding-top: 30px;
-  padding-left: 400px;
   float: right;
   font-family: $headerfont;
-  padding-bottom: 80px;
+
 }
 
 .choices {
   clear: both;
-  margin: 0 auto;
+  margin: 100px auto;
   font-family: $headerfont;
-  overflow: auto;
+  // overflow: auto;
   max-width: 100%;
 }
 
@@ -89,9 +83,4 @@ body{
   height: 320px;
 }
 
-@media (max-width:1415px){
-  .name {
-    color:black;
-  }
-
-}
+@import "media/indexMedia";
