@@ -288,6 +288,13 @@ body {
   animation: H1loadIt 1.5s;
   margin-top: 30px; }
 
+.what-page .info h3 {
+  font-family: "Fredericka the Great", cursive;
+  color: rgba(197, 0, 89, 0.8);
+  font-size: 2.7em;
+  padding-bottom: 20px;
+  animation: H3loadIt 1.5s; }
+
 .what-page {
   max-width: 95%;
   margin: 0 auto; }
@@ -389,6 +396,31 @@ body {
   font-size: 2.7em;
   padding-bottom: 20px;
   animation: H3loadIt 1.5s; }
+
+.how-page .container li {
+  text-align: center;
+  float: left;
+  font-family: "Shadows Into Light Two", cursive;
+  color: #f9f4e4;
+  font-size: 1.7em;
+  margin: 10px;
+  padding: 20px;
+  height: 20px;
+  background-color: #939598;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 20%; }
+
+.how-page .container li:hover {
+  height: auto; }
+
+.how-page .container li p {
+  padding-top: 10px;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: .8em;
+  padding-left: 10px;
+  color: #007b8d;
+  text-align: left; }
 
 .contact-head .contact-me {
   font-family: "Fredericka the Great", cursive;
