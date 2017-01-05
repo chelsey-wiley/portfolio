@@ -1,25 +1,70 @@
+@media (max-width: 980px) {
+  #circle-left:hover{
+    width: 300px;
+    height: 300px;
+  }
+
+  #circle-center:hover{
+    width: 300px;
+    height: 300px;
+  }
+  #circle-right:hover{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 920px) {
+  #circle-left:hover{
+    width: 275px;
+    height: 275px;
+  }
+
+  #circle-center:hover{
+    width: 275px;
+    height: 275px;
+  }
+  #circle-right:hover{
+    width: 275px;
+    height: 275px;
+  }
+}
+
 @media (max-width: 850px) {
 
   .circle{
     position: relative;
     float: none;
+    height: 275px;
+    width: 275px;
   }
   #circle-left{
     margin: 5px auto;
+  }
+  #circle-left:hover{
+    width: 320px;
+    height: 320px;
   }
 
   #circle-center{
     margin: 5px auto;
   }
+  #circle-center:hover{
+    width: 320px;
+    height: 320px;
+  }
 
   #circle-right{
     margin: 5px auto;
+  }
+  #circle-right:hover{
+    width: 320px;
+    height: 320px;
   }
 
   .circle p{
     margin:auto;
   }
-
 }
 
 @media (max-width:815px){
