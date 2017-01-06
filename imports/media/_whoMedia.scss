@@ -1,0 +1,23 @@
+@media (max-width: 915px) {
+  .reg-head {
+      border: 1px solid green;
+  }
+
+  .reg-head ul{
+    height: auto;
+  }
+
+.reg-head:hover{
+  
+}
+
+  .reg-head  li{
+    float: none;
+    padding: 5px;
+  }
+.reg-head p{
+  float: none;
+  height: 16px;
+}
+
+}

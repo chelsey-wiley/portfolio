@@ -331,6 +331,18 @@ body {
   color: #f9f4e4;
   font-size: 1.5em; }
 
+@media (max-width: 915px) {
+  .reg-head {
+    border: 1px solid green; }
+  .reg-head ul {
+    height: auto; }
+  .reg-head li {
+    float: none;
+    padding: 5px; }
+  .reg-head p {
+    float: none;
+    height: 16px; } }
+
 .what-head .what {
   font-size: 3.5em;
   margin-top: 5px;
