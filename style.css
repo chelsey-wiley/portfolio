@@ -222,7 +222,7 @@ body {
 .index-head ul {
   background-color: #939598;
   height: 80px;
-  font-family: "Fredericka the Great", cursive; }
+  font-family: "Shadows Into Light Two", cursive; }
 
 .index-head li {
   color: #f9f4e4;
@@ -233,20 +233,20 @@ body {
 
 .reg-head p {
   float: left;
-  color: #939598;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   font-size: 2em;
   font-family: "Shadows Into Light Two", cursive;
   color: #007b8d; }
 
 .reg-head ul {
-  height: 80px;
-  font-family: "Fredericka the Great", cursive; }
+  height: 60px;
+  font-family: "Shadows Into Light Two", cursive;
+  margin-bottom: 100px; }
 
 .reg-head li {
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   float: right;
   font-size: 1.5em; }
 
@@ -260,18 +260,20 @@ body {
   color: #007b8d; }
 
 .who-head .who {
-  font-size: 3.5em;
-  margin-top: 5px;
-  animation: fontBuldge 1.5s; }
+  margin: 10px;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed #a9ad00; }
 
 .who-page {
   font-family: "Fredericka the Great", cursive; }
 
 .container {
   position: relative;
-  margin: 30px;
-  max-width: 96%;
-  padding-bottom: 30px; }
+  margin: 0 auto;
+  padding-bottom: 30px;
+  max-width: 80%; }
 
 .photo {
   float: right; }
@@ -286,19 +288,12 @@ body {
   float: left;
   width: 70%; }
 
-.info h1 {
-  font-family: "Fredericka the Great", cursive;
-  color: #a9ad00;
-  font-size: 4em;
-  padding-bottom: 20px;
-  animation: H1loadIt 1.5s; }
-
 .info p {
   font-family: "Shadows Into Light Two", cursive;
   color: #007b8d;
   font-size: 1.5em;
   line-height: 1.5em;
-  padding-bottom: 20px; }
+  padding-bottom: 40px; }
 
 .info span {
   font-weight: bold; }
@@ -307,7 +302,6 @@ body {
   font-family: "Fredericka the Great", cursive;
   color: rgba(169, 173, 0, 0.8);
   font-size: 2.7em;
-  padding-bottom: 20px;
   animation: H3loadIt 1.5s; }
 
 .contact {
@@ -368,7 +362,7 @@ body {
   animation: H3loadIt 1.5s; }
 
 .what-page {
-  max-width: 95%;
+  max-width: 80%;
   margin: 0 auto; }
 
 .what-page p {

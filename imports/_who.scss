@@ -1,7 +1,9 @@
-.who-head .who {
-  font-size: 3.5em;
-  margin-top: 5px;
-  animation: fontBuldge 1.5s;
+.who-head .who{
+  margin: 10px;
+  float:right;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed $green;
 }
 
 
@@ -12,9 +14,12 @@
 
 .container{
   position: relative;
-  margin: 30px;
-  max-width: 96%;
+  margin: 0 auto;
+  // max-width: 96%;
   padding-bottom: 30px;
+  max-width: 80%;
+
+
 }
 
 .photo{
@@ -33,20 +38,20 @@
   width: 70%;
 }
 
-.info h1{
-  font-family: $headerfont;
-  color: $green;
-  font-size: 4em;
-  padding-bottom: 20px;
-  animation: H1loadIt 1.5s;
-}
+// .info h1{
+//   font-family: $headerfont;
+//   color: $green;
+//   font-size: 4em;
+//   padding-bottom: 20px;
+//   animation: H1loadIt 1.5s;
+// }
 
 .info p{
   font-family: $bodyfont;
   color: $teal;
   font-size: 1.5em;
   line-height: 1.5em;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .info span{
@@ -57,7 +62,7 @@
   font-family: $headerfont;
   color: $greenOp;
   font-size: 2.7em;
-  padding-bottom: 20px;
+  // padding-bottom: 10px;
   animation: H3loadIt 1.5s;
 }
 
