@@ -338,10 +338,11 @@ body {
     height: 16px; } }
 
 .what-head .what {
-  font-size: 3.5em;
-  margin-top: 5px;
-  margin-bottom: 30px;
-  animation: fontBuldge 1.5s; }
+  margin: 10px;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed #c50059; }
 
 .what-page .info {
   font-family: "Fredericka the Great", cursive;
@@ -438,9 +439,11 @@ body {
   color: rgba(169, 173, 0, 0.8); }
 
 .how-head .how {
-  font-size: 3.5em;
-  margin-top: 5px;
-  animation: fontBuldge 1.5s; }
+  margin: 10px;
+  float: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed #007b8d; }
 
 .how-page .container h1 {
   font-family: "Fredericka the Great", cursive;
