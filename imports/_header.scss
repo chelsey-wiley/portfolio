@@ -42,17 +42,50 @@
   font-size: 1.5em;
 }
 
+.who-head .who{
+  margin: 10px;
+  float:right;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed $green;
+}
+
+.what:hover{
+font-weight: bold;
+border-bottom: 5px dashed $pink;
+}
+
 .who{
   color: $green;
+}
+.who:hover{
+font-weight: bold;
+border-bottom: 5px dashed $green;
 }
 
 .what{
   color: $pink;
 }
+.what:hover{
+font-weight: bold;
+border-bottom: 5px dashed $pink;
+}
 
 .how{
   color:$teal;
 }
-// .reg-head:a{
-//   text-decoration: none;
-// }
+
+.how:hover{
+font-weight: bold;
+border-bottom: 5px dashed $teal;
+}
+
+.contact-head .contact-me{
+  margin: 10px;
+  float:right;
+  font-family: $bodyfont;
+  color: $teal;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed $teal;
+}

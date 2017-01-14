@@ -250,21 +250,46 @@ body {
   float: right;
   font-size: 1.5em; }
 
-.who {
-  color: #a9ad00; }
-
-.what {
-  color: #c50059; }
-
-.how {
-  color: #007b8d; }
-
 .who-head .who {
   margin: 10px;
   float: right;
   font-size: 1.5em;
   font-weight: bold;
   border-bottom: 5px dashed #a9ad00; }
+
+.what:hover {
+  font-weight: bold;
+  border-bottom: 5px dashed #c50059; }
+
+.who {
+  color: #a9ad00; }
+
+.who:hover {
+  font-weight: bold;
+  border-bottom: 5px dashed #a9ad00; }
+
+.what {
+  color: #c50059; }
+
+.what:hover {
+  font-weight: bold;
+  border-bottom: 5px dashed #c50059; }
+
+.how {
+  color: #007b8d; }
+
+.how:hover {
+  font-weight: bold;
+  border-bottom: 5px dashed #007b8d; }
+
+.contact-head .contact-me {
+  margin: 10px;
+  float: right;
+  font-family: "Shadows Into Light Two", cursive;
+  color: #007b8d;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 5px dashed #007b8d; }
 
 .who-page {
   font-family: "Fredericka the Great", cursive; }
@@ -301,8 +326,7 @@ body {
 .info h3 {
   font-family: "Fredericka the Great", cursive;
   color: rgba(169, 173, 0, 0.8);
-  font-size: 2.7em;
-  animation: H3loadIt 1.5s; }
+  font-size: 2.7em; }
 
 .contact {
   border-radius: 50%;
@@ -490,13 +514,6 @@ body {
   padding-left: 10px;
   color: #007b8d;
   text-align: left; }
-
-.contact-head .contact-me {
-  font-family: "Fredericka the Great", cursive;
-  color: #007b8d;
-  font-size: 3.5em;
-  margin-top: 5px;
-  animation: fontBuldge 1.5s; }
 
 .contact-constraint {
   width: 70%; }
