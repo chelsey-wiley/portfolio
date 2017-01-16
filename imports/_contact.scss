@@ -10,29 +10,36 @@
   width: 70%;
 }
 
-.contact-page h1 {
-  font-family: $headerfont;
-  color: $teal;
-  animation: H1loadIt 1.5s;
-  padding-bottom: 30px;
-  font-size: 4em;
-}
+// .contact-page h1 {
+//   font-family: $headerfont;
+//   color: $teal;
+//   animation: H1loadIt 1.5s;
+//   padding-bottom: 30px;
+//   font-size: 4em;
+// }
 
 .contact-page p{
   font-family: $bodyfont;
   font-size: 1.5em;
-  color: $grey;
-  padding-bottom: 30px;
+  color: $teal;
+  padding-bottom: 40px;
 }
 
 .contact-page p span{
   font-weight: bold;
 }
-
+.contact-page li{
+  font-family: $bodyfont;
+  font-size: 1.5em;
+  color: $teal;
+}
+.contact-page ul{
+  padding-bottom: 40px;
+}
 .contact-page h3{
   font-family: $headerfont;
-  color: $tealOp;
+  color: $grey;
   font-size: 2.7em;
-  padding-bottom: 20px;
-  animation: H3loadIt 1.5s;
+  padding-bottom: 10px;
+  // animation: H3loadIt 1.5s;
 }
