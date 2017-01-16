@@ -1,115 +1,120 @@
-.what-head .what{
-  margin: 10px;
-  float:right;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-bottom: 5px dashed $pink;
+
+.img-container-left{
+float: left;
+width: 47%;
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+border-radius: 10px;
+position: relative;
 }
 
-.what-page .info{
-  font-family: $headerfont;
-  float: left;
-  width: 30%;
-}
-.what-page .info h1{
-  font-size: 4em;
-  color: $pink;
-  animation: H1loadIt 1.5s;
-  margin-top: 30px;
-}
+// .img-container-left:hover{
+//   filter: opacity(.7) sepia(1);
+// }
 
-.what-page .info h3{
-  font-family: $headerfont;
-  color: $pinkOp;
-  font-size: 2.7em;
-  padding-bottom: 20px;
-  animation: H3loadIt 1.5s;
-}
-.what-page{
-  max-width: 80%;
-  margin:0 auto;
-}
-.what-page p{
-  font-family: $bodyfont;
-  font-size: 1.5em;
-}
-
-.projects{
-  float: right;
-  width: 70%;
-  margin: 0 auto;
-}
-
-.projects p{
-  font-family: $bodyfont;
-  font-size: 1.5em;
-  color:$teal;
-
-}
-
-.img-container{
-  padding:1%;
-  text-align: center;
-  float: left;
-  width: 31.3%;
-  border-radius: 10px;
-}
-
-.the-image{
-  margin-top: 5px;
-  animation: grow 1.5s;
-  object-fit: fill;
-  width: 100%;
-  height: 200px;
-  border-radius: 10px;
-  filter: opacity(.7) sepia(1);
-}
-
-.the-image:hover{
+.img-container-left:hover{
+  opacity: 1;
   filter: none;
 }
 
-.contact {
-  border-radius: 50%;
-  position: fixed;
-  bottom: -1;
-  right: -1;
-  width: 100px;
-  height: 100px;
-  background-color: $tealOp;
-  transition: all .5s ease-out;
-  padding: 5px;
+.img-container-left:hover .details{
+  opacity: 1;
 }
 
-.contact:hover{
-  height: 110px;
-  width: 110px;
+.img-container-right{
+float: right;
+width: 47%;
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+border-radius: 10px;
+position: relative;
 }
 
-.list ul{
+.img-container-right:hover{
+  opacity: 1;
+  filter: none;
+}
+
+.img-container-right:hover{
+  opacity: 1;
+  filter: none;
+}
+
+.img-container-right:hover .details{
+  opacity: 1;
+}
+
+.details{
+  position: absolute;
+  width: 50%;
+  margin: 0 auto;
+  bottom: -75px;
+  left: 25%;
+  height: 70px;
+  opacity: 0;
+}
+
+.github{
+  color: $teal;
+  float: left;
   font-family: $bodyfont;
-  font-size: 1.5em;
-  color:$teal;
-  list-style-type: disc;
+  font-size: 2em;
+  border-radius: 10px;
+  border: 3px solid $greenOp;
+  background-color: $greenOp;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  filter: opacity(.7) sepia(1);
 }
-.list{
-  padding: 30px;
-  line-height: 2em;
-}
-.code{
-  float: left;
-  width: 50%;
-}
-
-.design{
-  float: left;
-  width: 50%;
+.github:hover{
+  filter: none;
 }
 
-#blog:hover{
-  color:$greenOp;
+.work{
+  color: $teal;
+  float: right;
+  font-family: $bodyfont;
+  font-size: 2em;
+  border-radius: 10px;
+  border: 3px solid $greenOp;
+  background-color: $greenOp;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  filter: opacity(.7) sepia(1);
 }
 
-#linked-in:hover{
-  color:$greenOp;
+.work:hover{
+  filter: none;
+
+}
+
+.CSS-Ref{
+margin: 0 auto;
+background-image: url("CSSRef.jpg");
+object-fit: cover;
+margin-bottom: 80px;
+}
+
+.VIVW {
+  margin: 0 auto;
+  background-image: url("VIVW.jpg");
+  object-fit: fill;
+  margin-bottom: 80px;
+}
+
+.wishlist{
+  margin: 0 auto;
+  background-image: url("WishList.jpg");
+  object-fit: fill;
+  margin-bottom: 80px;
+}
+
+.x-men{
+  margin: 0 auto;
+  background-image: url("xmen.jpg");
+  object-fit: contain;
 }
