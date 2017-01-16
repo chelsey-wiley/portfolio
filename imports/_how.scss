@@ -7,17 +7,17 @@
 }
 
 
-.how-page .container h1{
-  font-family: $headerfont;
-  color: $teal;
-  font-size: 4em;
-  padding-bottom: 20px;
-  animation: H1loadIt 1.5s;
-}
+// .how-page .container h1{
+//   font-family: $headerfont;
+//   color: $tealOp;
+//   font-size: 4em;
+//   padding-bottom: 20px;
+//   animation: H1loadIt 1.5s;
+// }
 
 .how-page .container p{
   font-family: $bodyfont;
-  color: $grey;
+  color: $teal;
   font-size: 1.5em;
   line-height: 1.5em;
   padding-bottom: 20px;
@@ -28,22 +28,22 @@
   color: $tealOp;
   font-size: 2.7em;
   padding-bottom: 20px;
-  animation: H3loadIt 1.5s;
+  // animation: H3loadIt 1.5s;
 }
 
 .how-page .container li{
-  text-align: center;
-  float: left;
-  font-family: $bodyfont;
-  color:$cream;
-  font-size: 1.7em;
-  margin: 10px;
-  padding: 20px;
-  height: 20px;
-  background-color: $grey;
-  border-radius: 25px;
-  overflow: hidden;
-  width: 20%;
+  // text-align: center;
+  // float: left;
+  // font-family: $bodyfont;
+  // color:$cream;
+  // font-size: 1.7em;
+  // margin: 10px;
+  // padding: 20px;
+  // height: 20px;
+  // background-color: $grey;
+  // border-radius: 25px;
+  // overflow: hidden;
+  // width: 20%;
 }
 .how-page .container li:hover{
   height: auto;
