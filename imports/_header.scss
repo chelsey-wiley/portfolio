@@ -89,3 +89,12 @@ border-bottom: 5px dashed $teal;
   font-weight: bold;
   border-bottom: 5px dashed $teal;
 }
+.contact-me{
+  color:$grey;
+}
+.contact-me:hover{
+  font-weight: bold;
+  border-bottom: 5px dashed $grey;
+}
+
+// @import "media/headerMedia";

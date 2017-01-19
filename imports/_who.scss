@@ -3,15 +3,15 @@
 .who-page{
   font-family: $headerfont;
 }
-
+.contact-me{
+  display: none;
+}
 .container{
   position: relative;
   margin: 0 auto;
   // max-width: 96%;
   padding-bottom: 30px;
   max-width: 80%;
-
-
 }
 
 .photo{
@@ -28,7 +28,7 @@
 
 .info{
   float:left;
-  width: 70%;
+  width: 100%;
 }
 
 // .info h1{
@@ -83,4 +83,4 @@
   font-size: 1.5em;
 }
 
-@import "media/whoMedia"
+@import "media/whoMedia";

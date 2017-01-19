@@ -291,8 +291,18 @@ body {
   font-weight: bold;
   border-bottom: 5px dashed #007b8d; }
 
+.contact-me {
+  color: #939598; }
+
+.contact-me:hover {
+  font-weight: bold;
+  border-bottom: 5px dashed #939598; }
+
 .who-page {
   font-family: "Fredericka the Great", cursive; }
+
+.contact-me {
+  display: none; }
 
 .container {
   position: relative;
@@ -312,7 +322,7 @@ body {
 
 .info {
   float: left;
-  width: 70%; }
+  width: 100%; }
 
 .info p {
   font-family: "Shadows Into Light Two", cursive;
@@ -354,17 +364,58 @@ body {
   .photo img {
     display: none; } }
 
-@media (max-width: 915px) {
-  .reg-head {
-    border: 1px solid green; }
-  .reg-head ul {
-    height: auto; }
+@media (max-width: 1000px) {
+  .contact-me {
+    display: inline; }
+  .contact {
+    display: none; } }
+
+@media (max-width: 700px) {
   .reg-head li {
     float: none;
-    padding: 5px; }
+    padding: 5px;
+    border-bottom: none; }
   .reg-head p {
     float: none;
-    height: 16px; } }
+    height: 22px;
+    padding-bottom: 15px;
+    font-weight: bold; }
+  .who-head .who {
+    float: none;
+    padding: 5px;
+    border-bottom: none; }
+  .what:hover {
+    border-bottom: none; }
+  .how:hover {
+    border-bottom: none; }
+  .contact {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 123, 141, 0.8);
+    transition: all .5s ease-out; }
+  .contact:hover {
+    width: 75px;
+    height: 75px; }
+  .contact p {
+    margin-top: 35%;
+    text-align: center;
+    font-family: "Shadows Into Light Two", cursive;
+    color: #f9f4e4;
+    font-size: 1em; } }
+
+@media (max-width: 530px) {
+  .info {
+    text-align: center;
+    padding: 5px; }
+  .contact {
+    display: inline; }
+  #thing {
+    display: inline;
+    color: green; } }
 
 .img-container-left {
   float: left;
