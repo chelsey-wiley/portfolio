@@ -391,6 +391,16 @@ body {
   .contact-me:hover {
     border-bottom: none; } }
 
+@media (max-width: 500px) {
+  .reg-head ul {
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .reg-head ul:hover {
+    overflow: auto;
+    height: 210px;
+    margin-bottom: 20px; } }
+
 .img-container-left {
   float: left;
   width: 47%;
