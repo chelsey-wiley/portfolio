@@ -1,3 +1,9 @@
+@media (max-width:1360px) {
+  .photo img{
+    display: none;
+
+  }
+}
 @media (max-width: 915px) {
   .reg-head {
       border: 1px solid green;
@@ -8,7 +14,7 @@
   }
 
 .reg-head:hover{
-  
+
 }
 
   .reg-head  li{
