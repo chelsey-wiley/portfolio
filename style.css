@@ -288,8 +288,7 @@ body {
 @media (max-width: 780px) {
   .reg-head ul {
     height: 50px;
-    overflow: hidden;
-    border: 1px solid green; }
+    overflow: hidden; }
   .reg-head ul:hover {
     height: auto;
     overflow: auto; }
@@ -327,6 +326,16 @@ body {
     overflow: auto;
     height: 210px;
     margin-bottom: 20px; } }
+
+@media (max-width: 415px) {
+  .info h3 {
+    text-align: center; } }
+
+@media (max-width: 250px) {
+  .info p {
+    text-align: center; }
+  .contact p {
+    text-align: center; } }
 
 .who-page {
   font-family: "Fredericka the Great", cursive; }
