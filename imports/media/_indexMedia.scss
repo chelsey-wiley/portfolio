@@ -74,6 +74,9 @@
   .title{
     float: none;
   }
+  .top{
+    padding-bottom: 0px;
+  }
 }
 
 @media (max-width:540px) {
@@ -85,9 +88,47 @@
     padding: 10px;
     font-size: 2em;
   }
-.circle{
-  font-size: 1.5em;
-  height: 200px;
-  width: 200px;
+  #circle-left:hover{
+    width: 275px;
+    height: 275px;
+  }
+  #circle-center:hover{
+    width: 275px;
+    height: 275px;
+  }
+  #circle-right:hover{
+    width: 275px;
+    height: 275px;
+  }
 }
+
+
+@media(max-width:350px){
+  p{
+    font-size: .75em;
+  }
+  #circle-left{
+    width: 200px;
+    height: 200px;
+  }
+  #circle-center{
+    width: 200px;
+    height: 200px;
+  }
+  #circle-right{
+    width: 200px;
+    height: 200px;
+  }
+  #circle-left:hover{
+    width: 200px;
+    height: 200px;
+  }
+  #circle-center:hover{
+    width: 200px;
+    height: 200px;
+  }
+  #circle-right:hover{
+    width: 200px;
+    height: 200px;
+  }
 }
