@@ -216,24 +216,6 @@ body {
     height: 200px;
     width: 200px; } }
 
-.index-head {
-  opacity: 0; }
-
-.index-head ul {
-  background-color: #939598;
-  height: 80px;
-  font-family: "Shadows Into Light Two", cursive; }
-
-.index-head li {
-  color: #f9f4e4;
-  padding: 10px;
-  margin: 20px;
-  float: right;
-  font-size: 24px; }
-
-.contact-me {
-  display: none; }
-
 .reg-head p {
   float: left;
   padding: 5px;
@@ -243,26 +225,21 @@ body {
   color: #007b8d; }
 
 .reg-head ul {
-  height: 60px;
-  font-family: "Shadows Into Light Two", cursive;
-  margin-bottom: 100px; }
+  font-family: "Shadows Into Light Two", cursive; }
 
 .reg-head li {
+  margin-top: 10px;
   padding: 10px;
   margin: 10px;
   float: right;
   font-size: 1.5em; }
 
-.who-head .who {
+.who {
   margin: 10px;
   float: right;
   font-size: 1.5em;
   font-weight: bold;
   border-bottom: 5px dashed #a9ad00; }
-
-.what:hover {
-  font-weight: bold;
-  border-bottom: 5px dashed #c50059; }
 
 .who {
   color: #a9ad00; }
@@ -295,6 +272,7 @@ body {
   border-bottom: 5px dashed #007b8d; }
 
 .contact-me {
+  display: none;
   color: #939598; }
 
 .contact-me:hover {
@@ -308,6 +286,13 @@ body {
     display: none; } }
 
 @media (max-width: 780px) {
+  .reg-head ul {
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid green; }
+  .reg-head ul:hover {
+    height: auto;
+    overflow: auto; }
   .reg-head li {
     float: none;
     padding: 5px;
@@ -317,9 +302,8 @@ body {
     height: 22px;
     padding-bottom: 15px;
     font-weight: bold; }
-  .who {
+  .who-head .who {
     float: none;
-    padding: 5px;
     border-bottom: none; }
   .how {
     float: none;
@@ -356,12 +340,6 @@ body {
 .photo {
   float: right;
   display: block; }
-
-.photo img {
-  height: 300px;
-  filter: opacity(0.8) sepia(1);
-  border-radius: 15px;
-  margin: 0 auto; }
 
 .info {
   float: left;
@@ -403,7 +381,7 @@ body {
   color: #f9f4e4;
   font-size: 1.5em; }
 
-.info {
+.about {
   padding: 50px;
   height: auto; }
 

@@ -9,7 +9,15 @@
 
 }
 @media (max-width: 780px) {
-
+  .reg-head ul{
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid green;
+  }
+  .reg-head ul:hover{
+    height: auto;
+    overflow: auto;
+  }
   .reg-head  li{
     float: none;
     padding: 5px;
@@ -23,9 +31,8 @@
     font-weight: bold;
   }
 
-.who{
+  .who-head .who{
     float: none;
-    padding: 5px;
     border-bottom: none;
   }
 

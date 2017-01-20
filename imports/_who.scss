@@ -17,25 +17,10 @@
   display: block;
 }
 
-.photo img{
-  height: 300px;
-  filter: opacity(.8) sepia(1);
-  border-radius: 15px;
-  margin: 0 auto;
-}
-
 .info{
   float:left;
   width: 100%;
 }
-
-// .info h1{
-//   font-family: $headerfont;
-//   color: $green;
-//   font-size: 4em;
-//   padding-bottom: 20px;
-//   animation: H1loadIt 1.5s;
-// }
 
 .info p{
   font-family: $bodyfont;

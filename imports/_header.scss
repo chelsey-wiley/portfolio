@@ -1,25 +1,3 @@
-.index-head{
-  opacity: 0;
-}
-
-
-.index-head ul{
-  background-color: $grey;
-  height: 80px;
-  font-family: $bodyfont;
-}
-
-.index-head li{
-  color: $cream;
-  padding: 10px;
-  margin: 20px;
-  float:right;
-  font-size: 24px;
-}
-
-.contact-me{
-  display: none;
-}
 
 .reg-head p{
   float:left;
@@ -29,32 +7,25 @@
   font-family: $bodyfont;
   color: $teal;
 }
+
 .reg-head ul{
-  height: 60px;
-  // border-bottom: 5px outset $greyOp;
-  // background-color: $greyOp;
   font-family: $bodyfont;
-  margin-bottom: 100px;
 }
 
 .reg-head li{
+  margin-top: 10px;
   padding: 10px;
   margin: 10px;
   float:right;
   font-size: 1.5em;
 }
 
-.who-head .who{
+.who{
   margin: 10px;
   float:right;
   font-size: 1.5em;
   font-weight: bold;
   border-bottom: 5px dashed $green;
-}
-
-.what:hover{
-font-weight: bold;
-border-bottom: 5px dashed $pink;
 }
 
 .who{
@@ -91,7 +62,9 @@ border-bottom: 5px dashed $teal;
   font-weight: bold;
   border-bottom: 5px dashed $teal;
 }
+
 .contact-me{
+  display: none;
   color:$grey;
 }
 .contact-me:hover{
