@@ -1,8 +1,11 @@
-
+.info{
+  height:auto;
+}
 .img-container-left{
 float: left;
 width: 47%;
 background-size: cover;
+background-position: center;
 background-repeat: no-repeat;
 height: 300px;
 border-radius: 10px;
@@ -26,6 +29,7 @@ position: relative;
 float: right;
 width: 47%;
 background-size: cover;
+background-position: center;
 background-repeat: no-repeat;
 height: 300px;
 border-radius: 10px;
@@ -48,43 +52,34 @@ position: relative;
 
 .details{
   position: absolute;
-  width: 50%;
   margin: 0 auto;
   bottom: -75px;
-  left: 25%;
   height: 70px;
   opacity: 0;
+  width: 100%;
+}
+
+.details li{
+    color: $teal;
+    font-family: $bodyfont;
+    font-size: 2em;
+    border-radius: 10px;
+    border: 3px solid $greenOp;
+    background-color: $greenOp;
+    padding: 10px;
+    text-align: center;
+    filter: opacity(.7) sepia(1);
 }
 
 .github{
-  color: $teal;
   float: left;
-  font-family: $bodyfont;
-  font-size: 2em;
-  border-radius: 10px;
-  border: 3px solid $greenOp;
-  background-color: $greenOp;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  filter: opacity(.7) sepia(1);
 }
 .github:hover{
   filter: none;
 }
 
 .work{
-  color: $teal;
   float: right;
-  font-family: $bodyfont;
-  font-size: 2em;
-  border-radius: 10px;
-  border: 3px solid $greenOp;
-  background-color: $greenOp;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  filter: opacity(.7) sepia(1);
 }
 
 .work:hover{
@@ -118,3 +113,5 @@ margin-bottom: 80px;
   background-image: url("xmen.jpg");
   object-fit: contain;
 }
+
+@import "media/whatMedia";
