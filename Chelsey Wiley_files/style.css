@@ -231,9 +231,6 @@ body {
   float: right;
   font-size: 24px; }
 
-.contact-me {
-  display: none; }
-
 .reg-head p {
   float: left;
   padding: 5px;
@@ -301,49 +298,11 @@ body {
   font-weight: bold;
   border-bottom: 5px dashed #939598; }
 
-@media (max-width: 1360px) {
-  .photo img {
-    display: none; } }
-
-@media (max-width: 1000px) {
-  .contact-me {
-    display: inline; }
-  .contact {
-    display: none; } }
-
-@media (max-width: 780px) {
-  .reg-head li {
-    float: none;
-    padding: 5px;
-    border-bottom: none; }
-  .reg-head p {
-    float: none;
-    height: 22px;
-    padding-bottom: 15px;
-    font-weight: bold; }
-  .who-head .who {
-    float: none;
-    padding: 5px;
-    border-bottom: none; }
-  .what:hover {
-    border-bottom: none; }
-  .how:hover {
-    border-bottom: none; }
-  .contact-me:hover {
-    border-bottom: none; } }
-
-@media (max-width: 500px) {
-  .reg-head ul {
-    height: 50px;
-    overflow: hidden;
-    margin-bottom: 20px; }
-  .reg-head ul:hover {
-    overflow: auto;
-    height: 210px;
-    margin-bottom: 20px; } }
-
 .who-page {
   font-family: "Fredericka the Great", cursive; }
+
+.contact-me {
+  display: none; }
 
 .container {
   position: relative;
@@ -400,6 +359,47 @@ body {
   font-family: "Shadows Into Light Two", cursive;
   color: #f9f4e4;
   font-size: 1.5em; }
+
+@media (max-width: 1360px) {
+  .photo img {
+    display: none; } }
+
+@media (max-width: 1000px) {
+  .contact-me {
+    display: inline; }
+  .contact {
+    display: none; } }
+
+@media (max-width: 780px) {
+  .reg-head li {
+    float: none;
+    padding: 5px;
+    border-bottom: none; }
+  .reg-head p {
+    float: none;
+    height: 22px;
+    padding-bottom: 15px;
+    font-weight: bold; }
+  .who-head .who {
+    float: none;
+    padding: 5px;
+    border-bottom: none; }
+  .what:hover {
+    border-bottom: none; }
+  .how:hover {
+    border-bottom: none; }
+  .contact-me:hover {
+    border-bottom: none; } }
+
+@media (max-width: 500px) {
+  .reg-head ul {
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .reg-head ul:hover {
+    overflow: auto;
+    height: 210px;
+    margin-bottom: 20px; } }
 
 .img-container-left {
   float: left;

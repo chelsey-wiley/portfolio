@@ -17,7 +17,9 @@
   font-size: 24px;
 }
 
-
+.contact-me{
+  display: none;
+}
 
 .reg-head p{
   float:left;
@@ -97,4 +99,5 @@ border-bottom: 5px dashed $teal;
   border-bottom: 5px dashed $grey;
 }
 
-// @import "media/headerMedia";
+
+@import "media/headerMedia";
