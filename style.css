@@ -508,7 +508,7 @@ body {
   font-weight: bold;
   border-bottom: 5px dashed #007b8d; }
 
-.how-page .container p {
+.container p {
   font-family: "Shadows Into Light Two", cursive;
   color: #007b8d;
   font-size: 1.5em;
@@ -518,33 +518,32 @@ body {
 .how-page .container h3 {
   font-family: "Fredericka the Great", cursive;
   color: rgba(0, 123, 141, 0.8);
-  font-size: 2.7em;
-  padding-bottom: 20px; }
+  font-size: 2.7em; }
 
-.how-page .container li {
-  text-align: center;
+.topic {
   float: left;
-  font-family: "Shadows Into Light Two", cursive;
-  color: #f9f4e4;
-  font-size: 1.7em;
-  margin: 10px;
-  padding: 20px;
-  height: 50px;
   background-color: #939598;
-  border-radius: 25px;
+  border-radius: 20px;
+  width: 30%;
+  height: 60px;
   overflow: hidden;
-  width: 25%; }
+  margin: 1%;
+  font-size: 1.5em; }
 
-.how-page .container li:hover {
+.topic p {
+  color: #f9f4e4;
+  text-align: center; }
+
+.topic:hover {
+  overflow: auto;
   height: auto; }
 
-.how-page .container li p {
-  padding-top: 40px;
+.topic li {
+  text-align: left;
+  margin: 5%;
+  padding-left: 2%;
   font-family: "Shadows Into Light Two", cursive;
-  font-size: .8em;
-  padding-left: 10px;
-  color: #007b8d;
-  text-align: left; }
+  color: #007b8d; }
 
 .contact-constraint {
   width: 70%; }
