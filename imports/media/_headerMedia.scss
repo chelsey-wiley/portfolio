@@ -1,9 +1,3 @@
-@media (max-width:1360px) {
-  .photo img{
-    display: none;
-
-  }
-}
 
 @media (max-width:1000px) {
   .contact-me{
@@ -29,12 +23,21 @@
     font-weight: bold;
   }
 
-  .who-head .who{
+.who{
     float: none;
     padding: 5px;
     border-bottom: none;
   }
 
+  .how{
+  float: none;
+  padding: 5px;
+  border-bottom: none;
+  }
+
+  .who:hover{
+    border-bottom: none;
+  }
   .what:hover{
     border-bottom: none;
   }
@@ -45,9 +48,6 @@
   .contact-me:hover{
     border-bottom: none;
   }
-
-
-
 
 
 }

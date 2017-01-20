@@ -301,10 +301,6 @@ body {
   font-weight: bold;
   border-bottom: 5px dashed #939598; }
 
-@media (max-width: 1360px) {
-  .photo img {
-    display: none; } }
-
 @media (max-width: 1000px) {
   .contact-me {
     display: inline; }
@@ -321,9 +317,15 @@ body {
     height: 22px;
     padding-bottom: 15px;
     font-weight: bold; }
-  .who-head .who {
+  .who {
     float: none;
     padding: 5px;
+    border-bottom: none; }
+  .how {
+    float: none;
+    padding: 5px;
+    border-bottom: none; }
+  .who:hover {
     border-bottom: none; }
   .what:hover {
     border-bottom: none; }
@@ -529,7 +531,8 @@ body {
   overflow: hidden;
   padding: 2px;
   margin: 1%;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  min-width: 150px; }
 
 .topic p {
   color: #f9f4e4;
