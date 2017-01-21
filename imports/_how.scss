@@ -1,21 +1,20 @@
-.how-head .how {
-  margin: 10px;
-  float:right;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-bottom: 5px dashed $teal;
+
+.how-page{
+  font-family: $headerfont;
 }
-
-
-.container p{
+.how-info{
+  float: left;
+  width: 100%;
+}
+.how-info p{
   font-family: $bodyfont;
   color: $teal;
   font-size: 1.5em;
   line-height: 1.5em;
-  padding-bottom: 20px;
-}
+  padding-bottom: 40px;
 
-.how-page .container h3{
+}
+.how-info h3{
   font-family: $headerfont;
   color: $tealOp;
   font-size: 2.7em;
@@ -41,6 +40,9 @@
 .topic p{
   color: $cream;
   text-align: center;
+  padding: 10px;
+  font-family: $bodyfont;
+  font-size: 1.5em;
 }
 
 .topic:hover{
