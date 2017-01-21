@@ -54,12 +54,19 @@
   .contact-me:hover{
     border-bottom: none;
   }
-
+  #who-id{
+    border-bottom: none;
+  }
+  #what-id{
+    border-bottom: none;
+  }
+  #how-id{
+    border-bottom: none;
+  }
 
 }
  @media (max-width: 500px){
    .reg-head ul {
-    //  border: 1px solid green;
      height: 50px;
      overflow: hidden;
      margin-bottom:20px

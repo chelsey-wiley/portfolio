@@ -2,13 +2,6 @@
   font-family: $headerfont;
 }
 
-.container{
-  position: relative;
-  margin: 0 auto;
-  // max-width: 96%;
-  padding-bottom: 30px;
-  max-width: 80%;
-}
 
 .about{
   float:left;
@@ -16,7 +9,6 @@
 }
 
 .about h3{
-  // margin-top: 10px;
   font-family: $headerfont;
   font-size: 2.7em;
   color:$pink;

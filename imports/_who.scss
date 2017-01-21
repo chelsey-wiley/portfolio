@@ -1,5 +1,3 @@
-
-
 .who-page{
   font-family: $headerfont;
 }
@@ -28,28 +26,12 @@
   font-size: 2.7em;
 }
 
-.contact {
-  border-radius: 50%;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
-  background-color: $tealOp;
-  transition: all .5s ease-out;
-}
-
-.contact:hover{
-  height: 110px;
-  width: 110px;
-}
-
-.contact p{
-  margin-top: 35%;
-  text-align: center;
-  font-family: $bodyfont;
-  color:$cream;
-  font-size: 1.5em;
+.container {
+  position: relative;
+  margin: 0 auto;
+  // max-width: 96%;
+  padding-bottom: 30px;
+  max-width: 80%;
 }
 
 @import "media/whoMedia";

@@ -60,16 +60,6 @@ font-weight: bold;
 border-bottom: 5px dashed $teal;
 }
 
-.contact-head .contact-me{
-  margin: 10px;
-  float:right;
-  font-family: $bodyfont;
-  color: $teal;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-bottom: 5px dashed $teal;
-}
-
 .contact-me{
   display: none;
   color:$grey;
@@ -89,5 +79,28 @@ border-bottom: 5px dashed $teal;
   border-bottom: 5px dashed $teal;
 }
 
+.contact {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: $tealOp;
+  transition: all .5s ease-out;
+}
+
+.contact:hover{
+  height: 110px;
+  width: 110px;
+}
+
+.contact p{
+  margin-top: 35%;
+  text-align: center;
+  font-family: $bodyfont;
+  color:$cream;
+  font-size: 1.5em;
+}
 
 @import "media/headerMedia";

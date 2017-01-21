@@ -298,15 +298,6 @@ body {
   font-weight: bold;
   border-bottom: 5px dashed #007b8d; }
 
-.contact-head .contact-me {
-  margin: 10px;
-  float: right;
-  font-family: "Shadows Into Light Two", cursive;
-  color: #007b8d;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-bottom: 5px dashed #007b8d; }
-
 .contact-me {
   display: none;
   color: #939598; }
@@ -323,6 +314,27 @@ body {
 
 #how-id {
   border-bottom: 5px dashed #007b8d; }
+
+.contact {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 123, 141, 0.8);
+  transition: all .5s ease-out; }
+
+.contact:hover {
+  height: 110px;
+  width: 110px; }
+
+.contact p {
+  margin-top: 35%;
+  text-align: center;
+  font-family: "Shadows Into Light Two", cursive;
+  color: #f9f4e4;
+  font-size: 1.5em; }
 
 @media (max-width: 1000px) {
   .contact-me {
@@ -360,6 +372,12 @@ body {
   .how:hover {
     border-bottom: none; }
   .contact-me:hover {
+    border-bottom: none; }
+  #who-id {
+    border-bottom: none; }
+  #what-id {
+    border-bottom: none; }
+  #how-id {
     border-bottom: none; } }
 
 @media (max-width: 500px) {
@@ -404,35 +422,14 @@ body {
   color: rgba(169, 173, 0, 0.8);
   font-size: 2.7em; }
 
-.contact {
-  border-radius: 50%;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
-  background-color: rgba(0, 123, 141, 0.8);
-  transition: all .5s ease-out; }
-
-.contact:hover {
-  height: 110px;
-  width: 110px; }
-
-.contact p {
-  margin-top: 35%;
-  text-align: center;
-  font-family: "Shadows Into Light Two", cursive;
-  color: #f9f4e4;
-  font-size: 1.5em; }
-
-.what-page {
-  font-family: "Fredericka the Great", cursive; }
-
 .container {
   position: relative;
   margin: 0 auto;
   padding-bottom: 30px;
   max-width: 80%; }
+
+.what-page {
+  font-family: "Fredericka the Great", cursive; }
 
 .about {
   float: left;
@@ -619,12 +616,17 @@ body {
   font-family: "Shadows Into Light Two", cursive;
   color: #007b8d; }
 
+@media (max-width: 700px) {
+  float: none; }
+
 .contact-constraint {
-  width: 70%; }
+  float: left;
+  width: 100%; }
 
 .contact-page p {
   font-family: "Shadows Into Light Two", cursive;
   font-size: 1.5em;
+  line-height: 1.5em;
   color: #007b8d;
   padding-bottom: 40px; }
 
@@ -634,7 +636,11 @@ body {
 .contact-page li {
   font-family: "Shadows Into Light Two", cursive;
   font-size: 1.5em;
+  line-height: 1.5em;
   color: #007b8d; }
+
+.contact-page li:hover {
+  color: #939598; }
 
 .contact-page ul {
   padding-bottom: 0px; }

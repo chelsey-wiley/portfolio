@@ -1,26 +1,15 @@
-// .contact-head .contact-me{
-//   font-family: $headerfont;
-//   color: $teal;
-//   font-size: 3.5em;
-//   margin-top: 5px;
-//   animation: fontBuldge 1.5s;
-// }
+
 
 .contact-constraint{
-  width: 70%;
+  float:left;
+  width: 100%;
 }
 
-// .contact-page h1 {
-//   font-family: $headerfont;
-//   color: $teal;
-//   animation: H1loadIt 1.5s;
-//   padding-bottom: 30px;
-//   font-size: 4em;
-// }
 
 .contact-page p{
   font-family: $bodyfont;
   font-size: 1.5em;
+  line-height: 1.5em;
   color: $teal;
   padding-bottom: 40px;
 }
@@ -31,7 +20,12 @@
 .contact-page li{
   font-family: $bodyfont;
   font-size: 1.5em;
+  line-height: 1.5em;
   color: $teal;
+}
+
+.contact-page li:hover{
+  color:$grey;
 }
 .contact-page ul{
   padding-bottom:0px;
