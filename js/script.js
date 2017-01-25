@@ -1,4 +1,3 @@
-console.log ('hellow');
 
 var regHead = document.querySelector('.reg-head');
 var home = document.querySelector('.home');

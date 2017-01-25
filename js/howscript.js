@@ -1,5 +1,3 @@
-console.log('howscript');
-
 var diva = document.querySelector('.div-a');
 var divb = document.querySelector('.div-b');
 var divc = document.querySelector('.div-c');
