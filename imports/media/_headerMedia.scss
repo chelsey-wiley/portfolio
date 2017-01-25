@@ -18,10 +18,7 @@
     height: auto;
     overflow: auto;
   }
-  // .reg-head ul:hover{
-  //   height: auto;
-  //   overflow: auto;
-  // }
+
   .reg-head  li{
     float: none;
     padding: 5px;
@@ -73,16 +70,7 @@
   }
 }
  @media (max-width: 500px){
-   .reg-head ul {
-     height: 50px;
-     overflow: hidden;
-     margin-bottom:20px
-   }
-   .reg-head ul:hover {
-     overflow: auto;
-     height: 210px;
-     margin-bottom: 20px;
-   }
+
  }
 @media (max-width: 415px){
   .info h3{
