@@ -339,7 +339,8 @@ body {
 .the-img {
   float: right;
   height: 40px;
-  width: 40px; }
+  width: 40px;
+  display: none; }
 
 @media (max-width: 1000px) {
   .contact-me {
@@ -350,7 +351,8 @@ body {
 @media (max-width: 780px) {
   .reg-head ul {
     height: 50px;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 30px; }
   .head-height ul {
     height: auto;
     overflow: auto; }
@@ -383,7 +385,9 @@ body {
   #what-id {
     border-bottom: none; }
   #how-id {
-    border-bottom: none; } }
+    border-bottom: none; }
+  .the-img {
+    display: inline; } }
 
 @media (max-width: 500px) {
   .reg-head ul {
@@ -552,6 +556,18 @@ body {
     height: 500px; } }
 
 @media (max-width: 850px) {
+  .details {
+    opacity: 1; }
+  .details li {
+    filter: none; }
+  .img-container-left {
+    width: 100%;
+    height: 400px; }
+  .img-container-right {
+    width: 100%;
+    height: 400px; } }
+
+@media (max-width: 630px) {
   .img-container-left {
     width: 100%;
     height: 300px; }

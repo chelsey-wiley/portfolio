@@ -12,6 +12,7 @@
   .reg-head ul{
     height: 50px;
     overflow: hidden;
+    margin-bottom: 30px;
   }
   .head-height ul{
     height: auto;
@@ -67,7 +68,9 @@
   #how-id{
     border-bottom: none;
   }
-
+  .the-img{
+    display: inline;
+  }
 }
  @media (max-width: 500px){
    .reg-head ul {
