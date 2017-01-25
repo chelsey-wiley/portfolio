@@ -4,11 +4,22 @@ var regHead = document.querySelector('.reg-head');
 var home = document.querySelector('.home');
 var theImg = document.querySelector('.the-img');
 
+var diva = document.querySelector('.div-a');
+var divb = document.querySelector('.div-b');
+var divc = document.querySelector('.div-c');
+
 theImg.addEventListener('click', function() {
-  console.log('clicked with gusto')
+  regHead.classList.toggle('head-height');
+});
 
-//This grabs the HTML dom element with class name of read this
+diva.addEventListener('click', function(){
+  diva.classList.toggle('topic-height');
+});
 
-  regHead.classList.toggle('head-height')
+divb.addEventListener('click', function(){
+  divb.classList.toggle('topic-height');
+});
 
+divc.addEventListener('click', function(){
+  divc.classList.toggle('topic-height');
 });
