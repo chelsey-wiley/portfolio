@@ -315,6 +315,9 @@ body {
 #how-id {
   border-bottom: 5px dashed #007b8d; }
 
+#contact-me {
+  border-bottom: 5px dashed #939598; }
+
 .contact {
   border-radius: 50%;
   position: fixed;
