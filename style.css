@@ -430,6 +430,9 @@ body {
   padding-bottom: 30px;
   max-width: 80%; }
 
+#blog {
+  color: #a9ad00; }
+
 .what-page {
   font-family: "Fredericka the Great", cursive; }
 
@@ -552,6 +555,9 @@ body {
   background-image: url("persona.png");
   object-fit: cover;
   margin-bottom: 80px; }
+
+a {
+  color: #a9ad00; }
 
 @media (max-width: 1000px) {
   .img-container-left {
