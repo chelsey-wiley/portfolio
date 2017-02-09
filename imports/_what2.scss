@@ -21,6 +21,7 @@
   line-height: 1.5em;
   padding-bottom: 40px;
 }
+
 .img-container-left{
 float: left;
 width: 47%;
@@ -128,6 +129,20 @@ margin-bottom: 80px;
   margin: 0 auto;
   background-image: url("xmen.jpg");
   object-fit: contain;
+  margin-bottom: 80px;
+}
+
+.laura{
+  margin: 0 auto;
+  background-image: url("laura-home.png");
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+.persona {
+margin: 0 auto;
+background-image: url("persona.png");
+object-fit: cover;
+margin-bottom: 80px;
 }
 
 @import "media/whatMedia";
