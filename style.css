@@ -556,6 +556,12 @@ body {
   object-fit: contain;
   margin-bottom: 80px; }
 
+.Heifer-IA {
+  margin: 0 auto;
+  background-image: url("IA_img.png");
+  object-fit: contain;
+  margin-bottom: 80px; }
+
 a {
   color: #a9ad00; }
 
