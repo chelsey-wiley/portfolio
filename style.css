@@ -552,8 +552,8 @@ body {
 
 .persona {
   margin: 0 auto;
-  background-image: url("persona.png");
-  object-fit: cover;
+  background-image: url("persona_david.jpg");
+  object-fit: contain;
   margin-bottom: 80px; }
 
 a {
